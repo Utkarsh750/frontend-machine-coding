@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import ProgressBar from "./components/ProgressBar";
 import StarRating from "./components/StarRating";
+import Pagination from "./components/Pagination";
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -20,6 +21,7 @@ function App() {
     <>
       <div className="App">
         <h1>Front-end Machine Coding Questions</h1>
+        <Pagination />
         {/* <StarRating /> */}
 
         {/* Progress Bar */}
