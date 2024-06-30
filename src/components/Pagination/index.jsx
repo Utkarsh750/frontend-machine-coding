@@ -5,16 +5,17 @@ const Pagination = () => {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState();
   const fetchProducts = async () => {
-    const res = await fetch("https://dummyjson.com/products?limit=100");
+    const res = await fetch("https://dummyjson.com/products?limit=100&skip=");
     const data = await res.json();
 
-    setProducts(data.products);
+    if (data && data.products) {
+      setProducts(data.products);
+      setTotalPages(data.total / 10);
+    }
   };
 
   useEffect(() => {
     fetchProducts();
-    setProducts(products);
-    setTotalPages(data / 10);
   }, []);
 
   const pageHandler = (selectedPage) => {
