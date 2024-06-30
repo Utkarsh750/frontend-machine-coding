@@ -40,6 +40,7 @@ const Pagination = () => {
         </div>
       )}
 
+      {/* PAGINATION LOGIC */}
       {products.length > 0 && (
         <div className="pagination">
           <span
