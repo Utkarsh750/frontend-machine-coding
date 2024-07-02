@@ -4,6 +4,7 @@ import ProgressBar from "./components/ProgressBar";
 import StarRating from "./components/StarRating";
 import Pagination from "./components/Pagination";
 import CountDownTimer from "./components/CountDownTimer";
+import CRUDONREACT from "./components/CRUD_ON_REACT";
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -24,7 +25,8 @@ function App() {
         <h1>Front-end Machine Coding Questions</h1>
         {/* <Pagination /> */}
         {/* <StarRating /> */}
-        <CountDownTimer />
+        {/* <CountDownTimer /> */}
+        <CRUDONREACT />
 
         {/* Progress Bar */}
         {/* <div className="App">
