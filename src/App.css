@@ -2,24 +2,8 @@
   text-align: center;
 }
 
-.star {
-  margin: 12px;
-  font-size: 60px;
-}
-
-button {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
-.on {
-  color: #ffd700;
-}
-
-.off {
-  color: gainsboro;
+body {
+  background-color: rgb(243, 237, 229);
 }
 
 /* import React, { useState } from "react";

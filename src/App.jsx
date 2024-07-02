@@ -3,6 +3,7 @@ import "./App.css";
 import ProgressBar from "./components/ProgressBar";
 import StarRating from "./components/StarRating";
 import Pagination from "./components/Pagination";
+import CountDownTimer from "./components/CountDownTimer";
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -21,8 +22,9 @@ function App() {
     <>
       <div className="App">
         <h1>Front-end Machine Coding Questions</h1>
-        <Pagination />
+        {/* <Pagination /> */}
         {/* <StarRating /> */}
+        <CountDownTimer />
 
         {/* Progress Bar */}
         {/* <div className="App">
