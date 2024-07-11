@@ -17,7 +17,7 @@ const FAQItem = ({ faq, index }) => {
     <>
       <div className="faq-box">
         <div className="que" onClick={handleClick}>
-          <button className={isShow ? "arrow" : ""}> > </button>
+          <button className={isShow ? "arrow" : ""}>  </button>
           <div>{faq.question}</div>
         </div>
         {isShow && <div className="ans">{faq.answer}</div>}
