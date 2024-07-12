@@ -7,3 +7,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+import React from "react";
+
+
+
+export default Navbar;
