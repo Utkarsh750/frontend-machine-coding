@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 import ProgressBar from "./components/ProgressBar";
 import StarRating from "./components/StarRating";
 import Pagination from "./components/Pagination";

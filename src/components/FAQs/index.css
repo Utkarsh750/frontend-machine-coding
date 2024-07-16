@@ -1,0 +1,39 @@
+
+.faq-box{
+    background-color: gray;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    color: rgb(0, 255, 234);
+  }
+  
+  .que{
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    font-size: 20px;
+  }
+  
+  button{
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: purple;
+  }
+  
+  .arrow {
+    transform: rotate(90deg);
+  }
+  .ans{
+    margin: 15px 0 5px 50px;
+    color: rgb(221, 214, 12);
+  } 
+  
