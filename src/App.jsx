@@ -8,6 +8,7 @@ import CRUDONREACT from "./components/CRUD_ON_REACT";
 import { FAQComponent } from "./components/FAQs/FAQ";
 import Todos from "./components/Todos";
 import { Debouncing } from "./components/Debouncing";
+import ReactSelectApp from "./components/React-Select";
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -26,14 +27,14 @@ function App() {
     <>
       <div className="App">
         <h1>Front-end Machine Coding Questions</h1>
+        <ReactSelectApp />
         {/* <Pagination /> */}
         {/* <StarRating /> */}
         {/* <CountDownTimer /> */}
         {/* <CRUDONREACT /> */}
         {/* <FAQComponent /> */}
         {/* <Todos /> */}
-        <Debouncing />
-
+        {/* <Debouncing /> */}
         {/* Progress Bar */}
         {/* <div className="App">
           <ProgressBar progress={progress} color="red" />{" "}
