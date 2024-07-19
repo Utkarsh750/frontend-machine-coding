@@ -7,8 +7,6 @@ const ReactSelectApp = () => {
     { values: "strawberry", lable: "Strawberry" },
     { values: "butter-scotch", lable: "Butter-Scotch" },
   ];
-
-
   
   const customStyle = {
     control: (provided) => ({
