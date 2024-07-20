@@ -17,7 +17,7 @@
     font-size: 20px;
   }
   
-  button{
+  /* button{
     height: 40px;
     width: 40px;
     background-color: gray;
@@ -27,7 +27,7 @@
     font-weight: bold;
     cursor: pointer;
     color: purple;
-  }
+  } */
   
   .arrow {
     transform: rotate(90deg);

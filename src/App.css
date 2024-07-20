@@ -2,6 +2,11 @@ body {
   background-color: rgb(243, 237, 229);
 }
 
+.h1{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 /* .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -8,6 +8,7 @@ import { FAQComponent } from "./components/FAQs/FAQ";
 import Todos from "./components/Todos";
 import { Debouncing } from "./components/Debouncing";
 import ReactSelectApp from "./components/React-Select";
+import ShuffleItems from "./components/ShuffledItems";
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -26,7 +27,8 @@ function App() {
     <>
       <div className="App">
         <h1>Front-end Machine Coding Questions</h1>
-        <ReactSelectApp />
+        <ShuffleItems />
+        {/* <ReactSelectApp /> */}
         {/* <Pagination /> */}
         {/* <StarRating /> */}
         {/* <CountDownTimer /> */}
