@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const ShuffleItems = () => {
   const [items, setItems] = useState([
@@ -21,7 +21,17 @@ const ShuffleItems = () => {
     setItems(shuffleItems);
   };
 
-  
+  useEffect(() => {
+    const counter = setInterval(() => {
+      setCount(count + 1);
+    }, 1000);
+
+    return () => clearInterval(counter);
+  });
+
+  let name: string = "John";
+  let age: number = 24;
+  let isActive: boolean = false;
   return (
     <div>
       <h1>List of Items</h1>
