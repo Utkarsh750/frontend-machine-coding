@@ -29,9 +29,6 @@ const ShuffleItems = () => {
     return () => clearInterval(counter);
   });
 
-  let name: string = "John";
-  let age: number = 24;
-  let isActive: boolean = false;
   return (
     <div>
       <h1>List of Items</h1>
